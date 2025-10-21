@@ -318,21 +318,28 @@ main {
       }
 
       .section1 .left .price {
-        font-size: 5vw;
+        font-size: 4.5vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        line-height: 1.4;
       }
 
       .section1 .left .price .green {
-        font-size: inherit;
+        font-size: 8vw;
+        font-weight: bold;
       }
 
       .section1 .left .price .lgray {
-        font-size: 3vw;
+        font-size: 4.5vw;
         font-weight: 800;
         text-decoration: line-through;
+        color: #666;
       }
 
       .section1 .left .price .gst {
-        font-size: 3.8vw;
+        font-size: 4.5vw;
       }
 
       .section1 .left h5 {
@@ -371,7 +378,19 @@ main {
       }
 
       .section1 .left .price {
-        font-size: 6vw;
+        font-size: 5vw;
+      }
+
+      .section1 .left .price .green {
+        font-size: 9vw;
+      }
+
+      .section1 .left .price .lgray {
+        font-size: 5vw;
+      }
+
+      .section1 .left .price .gst {
+        font-size: 5vw;
       }
 
       .cta button {
@@ -379,6 +398,7 @@ main {
         padding: 15px 20px;
       }
     }
+
 .section2 {
   padding: 100px 70px;
   display: flex;
