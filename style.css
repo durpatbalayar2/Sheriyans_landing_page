@@ -52,7 +52,7 @@ nav {
   padding: 15px 70px;
   position: fixed;
   width: 100%;
-  background-color: var(--gray);
+  background-color: #2e2c2c;
 }
 
 .nav1 {
@@ -174,17 +174,17 @@ main {
   background-color: var(--gray);
 }
 
-.left .price .lgray {
+ .section1 .left .price .lgray {
   font-size: 20px;
   font-weight: 800;
   text-decoration: line-through;
 }
 
-.left .price .gst {
+.section1 .left .price .gst {
   font-size: 20px;
 }
 
-.left h5 {
+.section1 .left h5 {
   color: var(--green);
   padding: 5px 0;
 }
@@ -251,7 +251,7 @@ main {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   main {
     padding-top: 50px;
   }
@@ -265,9 +265,11 @@ main {
     padding: 15px 0;
     width: 100%;
   }
-  .section1 .left h1 {
-    font-size: 33px;
+  .section1 .left > h3 {
+    font-size: 4vw;
   }
+
+ 
 
   .section1 .right .right-in {
     width: 100%;
@@ -293,10 +295,7 @@ main {
     border-radius: 5px;
   }
 
-  .section1 .left .price {
-    font-size: 5vw;
-  }
-
+  
   .section1 .left .tags h4 {
     padding: 7px 15px;
     border-radius: 4px;
@@ -304,13 +303,13 @@ main {
     background-color: var(--gray);
   }
 
-  .left .price .lgray {
-    font-size: 4vw;
+    .section1  .left .price .lgray {
+    font-size: 3vw;
     font-weight: 800;
     text-decoration: line-through;
   }
-  .left .price .gst {
-    font-size: 4vw;
+   .section1 .left .price .gst {
+    font-size: 3.8vw;
   }
 
   .section1 .left .cta {
